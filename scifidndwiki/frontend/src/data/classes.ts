@@ -171,7 +171,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Instantaneous' },
         ],
         description:
-          'The creature that hit you must succeed on a <strong>Strength saving throw</strong> or be pushed 2 meters away from you. If the target is made of metal or wearing heavy metal armor, it has <strong>advantage</strong> on the saving throw.',
+          'Your work with large components in dangerous and intense environments makes it possible for you to react quickly, and use your muscles to throw/displace a creature that attacks you.The creature that hit you must succeed on a <strong>Strength saving throw</strong> or be pushed 2 meters away from you. If the target is made of metal or wearing heavy metal armor, it has <strong>advantage</strong> on the saving throw.',
       },
       {
         type: 'spell-block',
@@ -210,7 +210,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Instantaneous' },
         ],
         description:
-          'You immediately learn: <strong>Integrity Status</strong> (full / damaged / critical), <strong>Fault Detection</strong> (specific cause of malfunction), <strong>Weak Point</strong> (if enemy Auto/robot, your next attack roll has +2 bonus).',
+          'You can asses the hardware status of any device, from computers to robots.You immediately learn: <strong>Integrity Status</strong> (full / damaged / critical), <strong>Fault Detection</strong> (specific cause of malfunction), <strong>Weak Point</strong> (If the target is an enemy Auto, robot or a reinforced structure, you find a physical vulnerability. Your next attack roll has +2 bonus, effect ends at the end of your next turn).',
       },
 
       /* ── 1st-Level ── */
@@ -227,7 +227,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Instantaneous' },
         ],
         description:
-          'You short-circuit your Bio-Conduit to create a blinding burst of electricity. Each creature in the cone must make a <strong>Constitution saving throw</strong>. On a failed save, <span class="dice">1d8</span> lightning damage and <strong>Blinded</strong> until the end of their next turn. On a success, half damage, not blinded. <strong>Battery Synergy:</strong> Expend 1 Battery charge to increase damage by <span class="dice">1d8</span> and increase range to a 10-meter cone.',
+          'You intentionally short-circuit your Bio-Conduit to create a blinding burst of electricity. Each creature in the cone must make a <strong>Constitution saving throw</strong>. On a failed save, <span class="dice">1d8</span> lightning damage and <strong>Blinded</strong> until the end of their next turn. On a success, half damage, not blinded. <strong>Battery Synergy:</strong> Expend 1 Battery charge to increase damage by <span class="dice">1d8</span> and increase range to a 10-meter cone.',
       },
       {
         type: 'spell-block',
@@ -240,7 +240,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Instantaneous' },
         ],
         description:
-          'Make a melee spell attack. On a hit, target takes <span class="dice">1d4</span> lightning damage. If the target is an Auto, machine, or carries a battery, restore 1 Battery charge.',
+          'You attempt to drain the electric energy from a creature. Make a melee spell attack. On a hit, target takes <span class="dice">1d4</span> lightning damage. If the target is an Auto, machine, or carries a battery, restore 1 Battery charge.',
       },
       {
         type: 'spell-block',
@@ -253,7 +253,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Concentration, up to 1 minute' },
         ],
         description:
-          'Your next melee weapon attack deals an extra <span class="dice">1d6</span> force damage. If the target is an Auto, construct, or mechanical creature, it must succeed on a <strong>Strength save</strong> or be <strong>Stunned</strong> until the end of your next turn. <em>At Higher Levels:</em> +<span class="dice">1d6</span> per slot above 1st.',
+          'You calibrate your strike for maximum structural impact. Your next melee weapon attack deals an extra <span class="dice">1d6</span> force damage. If the target is an Auto, construct, or mechanical creature, it must succeed on a <strong>Strength save</strong> or be <strong>Stunned</strong> until the end of your next turn. <em>At Higher Levels:</em> +<span class="dice">1d6</span> per spell slot above 1st.',
       },
 
       /* ── 2nd-Level ── */
@@ -270,7 +270,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Instantaneous' },
         ],
         description:
-          'Reduce incoming ranged attack damage by <span class="dice">2d10</span> + Intelligence modifier. If reduced to 0, redirect the projectile to a different target within 5 meters.',
+          'You activate a brief, localized Repulsor field. You reduce incoming ranged attack damage by <span class="dice">2d10</span> + Intelligence modifier. If reduced to 0, you redirect the projectile to a different target within 5 meters of the original.',
       },
       {
         type: 'spell-block',
@@ -283,7 +283,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Instantaneous' },
         ],
         description:
-          'You vent a burst of steam or coolant. Each creature within 5 meters makes a <strong>Constitution save</strong>. On a failure, <span class="dice">3d6</span> Fire or Cold damage (your choice) and speed halved until the start of your next turn.',
+          'You vent high-pressure steam or coolant from your gear. Each creature within 5 meters makes a <strong>Constitution save</strong>. On a failure, <span class="dice">3d6</span> Fire or Cold damage (your choice) and speed halved until the start of your next turn.',
       },
       {
         type: 'spell-block',
@@ -296,7 +296,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Concentration, up to 1 minute' },
         ],
         description:
-          'Target makes a <strong>Strength save</strong>. On failure, the target is <strong>Restrained</strong>. As an action on subsequent turns, you can pull the restrained creature up to 5 meters toward you.',
+          'You fire a localized gravity beam at a creature. The target makes a <strong>Strength save</strong>. On failure, the target is <strong>Restrained</strong>. As an action on subsequent turns, you can pull the restrained creature up to 5 meters toward you.',
       },
       {
         type: 'spell-block',
@@ -310,7 +310,7 @@ export const classArticles: Article[] = [
           { label: 'Cost', value: '2 Battery Charges' },
         ],
         description:
-          'Target makes a <strong>Constitution save</strong>. On failure: <span class="dice">4d8</span> lightning damage and <strong>Paralyzed</strong> until end of next turn. On success: half damage, not paralyzed. Auto / machine / heavy metal armor: <strong>disadvantage</strong> on save, paralysis lasts an additional round. <em>At Higher Levels:</em> +<span class="dice">1d8</span> per slot above 2nd.',
+          'You over-rev your internal capacitor to a dangerous degree, unleashing a concentrated, jagged bolt of black-and-blue electricity. The target makes a <strong>Constitution save</strong>. On failure: <span class="dice">4d8</span> lightning damage and <strong>Paralyzed</strong> until the end of its next turn as its nervous system (or circuitry) is completely locked down. On success: half damage, not paralyzed. Auto / machine / heavy metal armor: <strong>disadvantage</strong> on save, paralysis lasts an additional round. <em>At Higher Levels:</em> +<span class="dice">1d8</span> per slot above 2nd.',
       },
     ],
   },
@@ -422,7 +422,7 @@ export const classArticles: Article[] = [
         type: 'trait',
         name: 'The Indomitable Human Spirit (Level 5)',
         description:
-          'You can force your body to perform at a temporal pace that others cannot follow. Once per long rest, at the end of your turn, you can choose to immediately take one <strong>additional turn</strong>. During this extra turn, any Vanguard spells (level 2 or lower) you cast do not expend spell slots. Additionally, any weapon attacks made during this turn deal an extra <span class="dice">1d8</span> Kinetic damage. This surge is immensely taxing — once the extra turn ends, you cannot use your Reaction or your Defensive Posture feature until the end of your next turn.',
+          'You have reached a level of mental and physical fortitude that allows your own biological limits. You can force your body to perform at a temporal pace that others cannot follow. Once per long rest, at the end of your turn, you can choose to immediately take one <strong>additional turn</strong>. During this extra turn, any Vanguard spells (level 2 or lower) you cast do not expend spell slots. Additionally, any weapon attacks made during this turn deal an extra <span class="dice">1d8</span> Force damage. This surge is immensely taxing — once the extra turn ends, you cannot use your Reaction or your Defensive Posture feature until the end of your next turn, as your body enters a brief cooling-down period.',
       },
       { type: 'divider' },
       {
@@ -475,7 +475,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: '1 round' },
         ],
         description:
-          'Target must make a <strong>Wisdom saving throw</strong>. On failure, speed is halved and takes a penalty to its next attack roll equal to your proficiency bonus.',
+          'You fire a rapid, low-accuracy burst at a creature. The target must make a <strong>Wisdom saving throw</strong>. On failure, speed is halved and takes a penalty to its next attack roll equal to your proficiency bonus.',
       },
       {
         type: 'spell-block',
@@ -488,7 +488,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Instantaneous' },
         ],
         description:
-          'Target must succeed on a <strong>Strength saving throw</strong> or be pushed 10 feet away. If pushed into an object or creature, it takes <span class="dice">1d6</span> Force damage.',
+          'You manipulate the force cycles of your shield, sending a burst of kinetic energy. A creature within range must succeed on a <strong>Strength saving throw</strong> or be pushed 10 feet away. If pushed into an object or creature, it takes <span class="dice">1d6</span> Force damage.',
       },
 
       /* ── 1st-Level ── */
@@ -505,7 +505,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Instantaneous' },
         ],
         description:
-          'You swap places with the target and become the target of the attack. You have <strong>resistance</strong> to the triggering attack\'s damage. If the attack still hits you, you can immediately make one melee weapon attack against the attacker.',
+          'You throw yourself into the line of fire. You swap places with the target, and you become the target of the attack instead. You have <strong>resistance</strong> to the triggering attack\'s damage. If the attack still hits you, you can immediately make one melee weapon attack against the attacker.',
       },
       {
         type: 'spell-block',
@@ -518,7 +518,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: '1 hour' },
         ],
         description:
-          'You gain <span class="dice">2d6</span> Temporary Hit Points. While you have these temporary HP, any creature that hits you with a melee attack takes Force damage equal to your Dexterity modifier.',
+          'You overclock your force shield to absorb and store kinetic energy. You gain <span class="dice">2d6</span> Temporary Hit Points. While you have these temporary HP, any creature that hits you with a melee attack takes Force damage equal to your Dexterity modifier.',
       },
       {
         type: 'spell-block',
@@ -531,7 +531,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Instantaneous' },
         ],
         description:
-          'You learn the location of invisible creatures, hidden traps, or secret doors within 30 feet. For 1 minute, you cannot be surprised by creatures that were within the radius.',
+          'You release a high-frequency pulse that maps the environment. You instantly learn the location of any invisible creatures, hidden traps, or secret doors within 30 feet of you, provided you have line of effect to them (the pulse cannot pass through total cover like thick lead or vacuum-sealed bulkheads). For 1 minute, you cannot be surprised by creatures that were within the radius.',
       },
 
       /* ── 2nd-Level ── */
@@ -548,7 +548,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: '10 minutes' },
         ],
         description:
-          'Creates a 10-foot-wide, 5-foot-tall barrier with AC 10 and 30 HP. Provides <strong>Three-Quarters Cover</strong> (+5 AC / Dex saves). Allies can see and shoot through from one side; the barrier blocks from the opposite side.',
+          'You toss a small disk that expands into a 10-foot-wide, 5-foot-tall translucent barrier of hard-light. The barrier has an AC of 10 and 30 hit points. It provides <strong>Three-Quarters Cover</strong> (+5 AC / Dex saves). Allies can see and shoot through from one side; the barrier blocks from the opposite side.',
       },
       {
         type: 'spell-block',
@@ -561,7 +561,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Instantaneous' },
         ],
         description:
-          'Choose up to 3 creatures — make separate ranged attack rolls. On a hit: weapon damage + <span class="dice">1d8</span> Force. If targeting only one creature with all three bursts, the target makes a <strong>Dex save</strong>: <span class="dice">4d8</span> Force on fail, half on success.',
+          'You use your combat training and reflexes for maximum causalities. Choose up to 3 creatures — make separate ranged attack rolls. On a hit: weapon damage + <span class="dice">1d8</span> Force. If targeting only one creature with all three bursts, the target makes a <strong>Dex save</strong>: <span class="dice">4d8</span> Force on fail, half on success.',
       },
       {
         type: 'spell-block',
@@ -574,7 +574,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Concentration, up to 1 minute' },
         ],
         description:
-          'Target makes a <strong>Strength save</strong>. On failure, <strong>Restrained</strong>. Takes <span class="dice">2d6</span> Lightning damage at the start of each turn. Use a bonus action to pull 15 feet toward you. The target repeats the save at the end of each turn.',
+          'You fire a high-tensile magnetic wire at a creature within range. Target makes a <strong>Strength save</strong>. On failure, <strong>Restrained</strong>. Takes <span class="dice">2d6</span> Lightning damage at the start of each turn. Use a bonus action to pull 15 feet toward you. The target repeats the save at the end of each turn.',
       },
 
       /* ── 3rd-Level ── */
@@ -591,7 +591,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Concentration, up to 1 minute' },
         ],
         description:
-          'Creates a 15-foot-radius sphere of <strong>difficult terrain</strong>. Creatures entering or starting their turn in the sphere make a <strong>Strength save</strong>: on fail, <span class="dice">3d8</span> Force damage and pulled to the center. On success, half damage, not pulled. Ranged attacks through the sphere have <strong>Disadvantage</strong>.',
+          'You lob a gravity-distorting device to a point within range. Upon impact, it creates a 15-foot-radius sphere of <strong>difficult terrain</strong>. Creatures entering or starting their turn in the sphere make a <strong>Strength save</strong>: on fail, <span class="dice">3d8</span> Force damage and pulled to the center. On success, half damage, not pulled. Ranged attacks through the sphere have <strong>Disadvantage</strong>.',
       },
     ],
   },
@@ -677,19 +677,19 @@ export const classArticles: Article[] = [
         type: 'trait',
         name: '--no-cache-dir (Level 1)',
         description:
-          'You have learned to clear your neural pathways of junk data. Once per day when you finish a <strong>Short Rest</strong>, you can recover expended spell slots with a combined level equal to or less than half your Technomancer level (rounded up).',
+          'You have learned to clear your neural pathways of junk data to keep your processing speed at peak performance. Once per day when you finish a <strong>Short Rest</strong>, you can recover expended spell slots with a combined level equal to or less than half your Technomancer level (rounded up).',
       },
       {
         type: 'trait',
         name: 'Heuristic Modeling (Level 2)',
         description:
-          'After a long rest, roll two <span class="dice">d20</span>s and record the results. You can replace any attack roll, saving throw, or ability check made by you or a creature you can see with one of these rolls. You must choose before the roll is made. Unused simulations expire at the end of your next long rest.',
+          'You don\'t see the future; you just calculate the variables better than anyone else. After a long rest, roll two <span class="dice">d20</span>s and record the results. You can replace any attack roll, saving throw, or ability check made by you or a creature you can see with one of these rolls. You must choose before the roll is made. Unused simulations expire at the end of your next long rest.',
       },
       {
         type: 'trait',
         name: 'Multi-Threaded Processing (Level 3)',
         description:
-          'You can use a <strong>Bonus Action</strong> to cast a Technomancer cantrip that normally has a casting time of 1 Action. Usable a number of times equal to your Intelligence modifier per long rest.',
+          'Your neural augmentation allows you to partition your mind to handle multiple data streams at once. You can use a <strong>Bonus Action</strong> to cast a Technomancer cantrip that normally has a casting time of 1 Action. Usable a number of times equal to your Intelligence modifier per long rest.',
       },
       {
         type: 'trait',
@@ -701,13 +701,13 @@ export const classArticles: Article[] = [
         type: 'trait',
         name: 'The Expert\'s Conundrum (Level 4)',
         description:
-          'Choose one alignment: <strong>White Hat</strong> (resistance to Psychic and Lightning damage; use your reaction to grant an ally your Intelligence modifier as a bonus on Int/Wis saves within 30 feet), <strong>Grey Hat</strong> (once per Short Rest, reroll a failed ability check or saving throw), or <strong>Black Hat</strong> (add your Intelligence modifier to the total damage of Technomancer spells and cantrips).',
+          'Choose one alignment: <strong>White Hat</strong> (Your mind is reinforced against intrusion. resistance to Psychic and Lightning damage; use your reaction to grant an ally your Intelligence modifier as a bonus on Int/Wis saves within 30 feet), <strong>Grey Hat</strong> (You walk the line between ethical and illegal carefully. once per Short Rest, reroll a failed ability check or saving throw), or <strong>Black Hat</strong> (Fuck the system, you prioritize total system collapse, add your Intelligence modifier to the total damage of Technomancer spells and cantrips).',
       },
       {
         type: 'trait',
         name: 'Man vs. Nature (Level 5)',
         description:
-          'When you cast a Technomancer spell targeting a robotic, machine, or electronic target, you can attempt to force it to target an organic creature instead. Make a <strong>Neural Interfacing Check</strong> (<span class="dice">1d20</span> + Int + Prof) against DC 10 + target\'s Wisdom modifier. <strong>Success:</strong> the organic creature is treated as a machine — damage halved, other effects apply in full. <strong>Failure:</strong> the spell fails, no slot is expended, but the action is wasted and you take <span class="dice">1d8</span> damage.',
+          'Your neural interface has evolved to translate digital commands into bio-electric signals. You no longer see a distinction between a CPU and a brain. To you, <strong>we are all machines.</strong> . Whenever you cast a Technomancer spell or cantrip that specifically targets "robotic creatures," "machines," or "electronic systems," you can attempt to force the spell to target an <strong>organic creature</strong> instead. Make a <strong>Neural Interfacing Check</strong> (<span class="dice">1d20</span> + Int + Prof) against DC 10 + target\'s Wisdom modifier. <strong>Success:</strong> the organic creature is treated as a machine — damage halved, other effects apply in full. <strong>Failure:</strong> the spell fails, no slot is expended, but the action is wasted and you take <span class="dice">1d8</span> damage.',
       },
       { type: 'divider' },
       {
@@ -747,7 +747,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Until start of next turn' },
         ],
         description:
-          'You gain a <strong>+2 bonus to AC</strong> and <strong>Advantage</strong> on Dexterity saving throws until the start of your next turn.',
+          'You divert your neural processing power to combat sub-routines, analyzing your opponent\'s muscle twitches and center of gravity. You gain a <strong>+2 bonus to AC</strong> and <strong>Advantage</strong> on Dexterity saving throws until the start of your next turn.',
       },
       {
         type: 'spell-block',
@@ -760,7 +760,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Instantaneous' },
         ],
         description:
-          'Target robot, turret, or computer must succeed on an <strong>Intelligence save</strong> or take <span class="dice">1d8</span> psychic damage and have <strong>disadvantage</strong> on its next attack roll. Damage increases by <span class="dice">1d8</span> at 5th level.',
+          'You send a recursive loop of junk data to a target robot, turret, or computer system. Target robot, turret, or computer must succeed on an <strong>Intelligence save</strong> or take <span class="dice">1d8</span> psychic damage and have <strong>disadvantage</strong> on its next attack roll. Damage increases by <span class="dice">1d8</span> at 5th level.',
       },
       {
         type: 'spell-block',
@@ -803,7 +803,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Concentration, up to 1 minute' },
         ],
         description:
-          'Target robot or turret makes an <strong>Intelligence save</strong>. On failure, <strong>Charmed</strong>. Use a Bonus Action to command it to Attack, Dash, or Interact. The effect ends if the target is damaged by you or your allies.',
+          'You attempt to seize control of a robotic creature or automated turret. The target (robot,auto or turret) makes an <strong>Intelligence save</strong>. On failure, <strong>Charmed</strong>. Use a Bonus Action to command it to Attack, Dash, or Interact. The effect ends if the target is damaged by you or your allies.',
       },
       {
         type: 'spell-block',
@@ -816,7 +816,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: '1 minute' },
         ],
         description:
-          'Target makes an <strong>Intelligence save</strong>. On failure: <span class="dice">3d8</span> fire damage + <span class="dice">1d8</span> fire on its next turn. On success: <span class="dice">1d8</span> fire damage.',
+          'You force the cooling fans of a target\'s internal systems to malfunction. Target makes an <strong>Intelligence save</strong>. On failure: <span class="dice">3d8</span> fire damage + <span class="dice">1d8</span> fire on its next turn. On success: <span class="dice">1d8</span> fire damage.',
       },
       {
         type: 'spell-block',
@@ -842,7 +842,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: '1 round' },
         ],
         description:
-          'Target machine makes an <strong>Intelligence save</strong> or is <strong>Stunned</strong> until the start of your next turn. Attacks against the stunned target have <strong>Advantage</strong>.',
+          'You flood a machine’s temporary memory with useless requests. Target machine makes an <strong>Intelligence save</strong> or is <strong>Stunned</strong> until the start of your next turn. Attacks against the stunned target have <strong>Advantage</strong>.',
       },
       {
         type: 'spell-block',
@@ -855,7 +855,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Concentration, up to 1 minute' },
         ],
         description:
-          'Target makes an <strong>Intelligence save</strong> each turn. On failure: <span class="dice">1d6</span> lightning damage and speed halved.',
+          'You infect a machine with a slow-acting "worm." Target makes an <strong>Intelligence save</strong> each turn. On failure: <span class="dice">1d6</span> lightning damage and speed halved.',
       },
 
       /* ── 2nd-Level ── */
@@ -872,7 +872,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Concentration, up to 1 minute' },
         ],
         description:
-          'Target robot makes an <strong>Intelligence save</strong>. On failure, it views its allies as hostile and your allies as friendly. It attacks its own allies. The target repeats the save at the end of each turn.',
+          'You rewrite the targeting priority list of a robotic creature. Target robot makes an <strong>Intelligence save</strong>. On failure, it views its allies as hostile and your allies as friendly. It attacks its own allies. The target repeats the save at the end of each turn.',
       },
       {
         type: 'spell-block',
@@ -898,7 +898,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Concentration, up to 1 minute' },
         ],
         description:
-          'Target makes an <strong>Intelligence save</strong>. On failure: +2 to your Spell Save DC against the target; the target takes <span class="dice">2d6</span> psychic damage at the start of each of its turns. You learn one piece of information the machine knows.',
+          'You establish a tether between your mind and a machine’s data core to drain its processing power. Target makes an <strong>Intelligence save</strong>. On failure: +2 to your Spell Save DC against the target; the target takes <span class="dice">2d6</span> psychic damage at the start of each of its turns. You learn one piece of information the machine knows.',
       },
       {
         type: 'spell-block',
@@ -911,7 +911,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Instantaneous' },
         ],
         description:
-          'Target makes an <strong>Intelligence save</strong>. On failure: <span class="dice">4d8</span> fire damage and the target emits a shockwave (15-foot radius, <strong>Dex save</strong>, <span class="dice">3d8</span> fire on fail). <em>At Higher Levels:</em> +<span class="dice">1d8</span> per slot above 2nd.',
+          'You force a robotic creature or high-capacity battery within range to redline its power core. Target makes an <strong>Intelligence save</strong>. On failure: <span class="dice">4d8</span> fire damage and the target emits a shockwave (15-foot radius, <strong>Dex save</strong>, <span class="dice">3d8</span> fire on fail). <em>At Higher Levels:</em> +<span class="dice">1d8</span> per slot above 2nd.',
       },
       {
         type: 'spell-block',
@@ -924,7 +924,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Concentration, up to 1 minute' },
         ],
         description:
-          'Creates a 20-foot cube of digital interference. Robots within the area are <strong>Blinded</strong> and <strong>Deafened</strong>. Smart weapons fired through the area have <strong>Disadvantage</strong>.',
+          'You create a localized field of high-intensity data interference in a 20-foot cube. Creates a 20-foot cube of digital interference. Robots within the area are <strong>Blinded</strong> and <strong>Deafened</strong>. Smart weapons fired through the area have <strong>Disadvantage</strong>.',
       },
 
       /* ── 3rd-Level ── */
@@ -941,7 +941,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Concentration' },
         ],
         description:
-          'Target makes an <strong>Intelligence save</strong>. On failure: <strong>Incapacitated</strong>. At the start of each of your turns, the virus spreads to another machine within 20 feet. An affected machine repeats the save at the end of its turn to purge the virus.',
+          'You inject a self-replicating virus into a machine. Choose a robotic creature or computer system within range. Target makes an <strong>Intelligence save</strong>. On failure: <strong>Incapacitated</strong>. At the start of each of your turns, the virus spreads to another machine within 20 feet. An affected machine repeats the save at the end of its turn to purge the virus.',
       },
       {
         type: 'spell-block',
@@ -954,7 +954,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Concentration, up to 5 minutes' },
         ],
         description:
-          'Your speed is doubled, you gain +2 AC, and you have <strong>advantage</strong> on Dexterity saves. You can use a bonus action each turn to Dash, Disengage, Hide, or Use an Object. When you Dash, you can move through hostile space — each hostile creature must make a <strong>Strength save</strong> or be knocked <strong>Prone</strong>. When the spell ends, you take <span class="dice">2d6</span> psychic damage.',
+          'You cede motor control to your neural AI, which ignores your body’s physical safety limits to maximize efficiency. For the duration, Your speed is doubled, you gain +2 AC, and you have <strong>advantage</strong> on Dexterity saves. You can use a bonus action each turn to Dash, Disengage, Hide, or Use an Object. When you Dash, you can move through hostile space — each hostile creature must make a <strong>Strength save</strong> or be knocked <strong>Prone</strong>. When the spell ends, you take <span class="dice">2d6</span> psychic damage.',
       },
     ],
   },
@@ -1030,7 +1030,7 @@ export const classArticles: Article[] = [
         type: 'trait',
         name: 'Field Autopsy (Level 1)',
         description:
-          'You can spend 1 minute examining a biological sample (blood, a corpse, a plant). The DM tells you one of: the creature\'s resistances, its current health status, or the time since it was last at this location.',
+          'You can spend 1 minute examining a biological sample (blood, a corpse, a plant).The DM tells you one of the following: the creature\'s resistances, its current health status, or the time since it was last at this location.',
       },
       {
         type: 'trait',
@@ -1042,7 +1042,7 @@ export const classArticles: Article[] = [
         type: 'trait',
         name: 'Hazardous Tolerance (Level 2)',
         description:
-          'You gain <strong>resistance to Poison damage</strong> and have <strong>advantage</strong> on saving throws against being Poisoned or Diseased. You can breathe normally in thin-oxygen or airborne-toxin environments.',
+          'Constant exposure to the fumes of your Portable Chem-Lab has altered your constitution. You gain <strong>resistance to Poison damage</strong> and have <strong>advantage</strong> on saving throws against being Poisoned or Diseased. You can breathe normally in thin-oxygen or airborne-toxin environments.',
       },
       {
         type: 'trait',
@@ -1060,13 +1060,13 @@ export const classArticles: Article[] = [
         type: 'trait',
         name: 'Pro-active Senses (Level 4)',
         description:
-          'Your augments have a "pre-reflex" buffer. You <strong>cannot be surprised</strong> while conscious. You gain a bonus to Initiative rolls equal to your <strong>Wisdom modifier</strong>.',
+          'Your ocular and olfactory augments now have a "pre-reflex" buffer. Your brain processes danger a split-second before it happens. You <strong>cannot be surprised</strong> while conscious. You gain a bonus to Initiative rolls equal to your <strong>Wisdom modifier</strong>.',
       },
       {
         type: 'trait',
         name: 'Pact Of The Flesh (Level 5)',
         description:
-          'Whenever you cast a Splicer spell with a range of Self, you can choose to target one <strong>willing creature you can touch</strong> instead. The target gains all benefits and suffers all costs/drawbacks. You must still maintain Concentration if required.',
+          'Your mastery of your own biology has progressed beyond the limits of your own skin. You have developed a method to project your internal biochemical shifts onto others via touch. Whenever you cast a Splicer spell with a range of Self, you can choose to target one <strong>willing creature you can touch</strong> instead. The target gains all benefits and suffers all costs/drawbacks. You must still maintain Concentration if required.',
       },
       { type: 'divider' },
       {
@@ -1106,7 +1106,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Instantaneous' },
         ],
         description:
-          'You emit a medicinal vapour, granting you and all affected creatures <strong>advantage</strong> on their next saving throw.',
+          'You emit a strong medicinal vapour from your Chem-lab, granting you and all affected creatures <strong>advantage</strong> on their next saving throw.',
       },
       {
         type: 'spell-block',
@@ -1119,7 +1119,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: '1 minute' },
         ],
         description:
-          'Target gains temporary HP equal to your Wisdom modifier (minimum 1). While the target has these temporary HP, it cannot suffer the <strong>Bleeding</strong> condition.',
+          'You spray a fast-acting medical sealant onto a wound. Target gains temporary HP equal to your Wisdom modifier (minimum 1). While the target has these temporary HP, it cannot suffer the <strong>Bleeding</strong> condition.',
       },
       {
         type: 'spell-block',
@@ -1132,7 +1132,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Concentration' },
         ],
         description:
-          'You gain <strong>advantage</strong> on Perception and Survival checks to find or track that creature. The target cannot benefit from Half-Cover against your attacks.',
+          'You calibrate your ocular and olfactory augments to lock onto a specific target\'s biological signature. You gain <strong>advantage</strong> on Perception and Survival checks to find or track that creature. The target cannot benefit from Half-Cover against your attacks.',
       },
       {
         type: 'spell-block',
@@ -1145,7 +1145,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Instantaneous' },
         ],
         description:
-          'Target makes a <strong>Dex save</strong> or takes <span class="dice">1d6</span> acid damage. If the target is a machine or Auto, it takes a <strong>-1 AC penalty</strong> until the end of its next turn.',
+          'You hurl a glob of experimental solvent. Target makes a <strong>Dex save</strong> or takes <span class="dice">1d6</span> acid damage. If the target is a machine or Auto, it takes a <strong>-1 AC penalty</strong> until the end of its next turn.',
       },
 
       /* ── 1st-Level ── */
@@ -1162,7 +1162,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Concentration, up to 2 minutes' },
         ],
         description:
-          'Organic creatures within the area make a <strong>Constitution save</strong>. On failure: <strong>disadvantage</strong> to hit and cannot make reactions. Target repeats the save at the end of each turn (maximum 2 turns).',
+          'You release a fine mist of paralytic agents. Organic creatures within the area make a <strong>Constitution save</strong>. On failure: <strong>disadvantage</strong> to hit and cannot make reactions. Target repeats the save at the end of each turn (maximum 2 turns).',
       },
       {
         type: 'spell-block',
@@ -1175,7 +1175,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Instantaneous' },
         ],
         description:
-          'You boost your adrenaline, gaining <strong>+1 Dexterity</strong> until your next rest. Casting this more than once before resting requires a <strong>Constitution save DC 10</strong> or you take <span class="dice">1d8</span> damage.',
+          'You concentrate on your adrenaline glands, boosting production of adrenaline increasing your attentiveness, gaining <strong>+1 Dexterity</strong> until your next rest. Casting this more than once before resting requires a <strong>Constitution save DC 10</strong> or you take <span class="dice">1d8</span> damage.',
       },
       {
         type: 'spell-block',
@@ -1188,7 +1188,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: '1 minute' },
         ],
         description:
-          'Target makes a <strong>Dex save</strong> or is <strong>Blinded</strong>. The target makes a <strong>Constitution save</strong> at the end of each of its turns to end the effect.',
+          'You flick a packet of micro-crystals at a creature\'s face. Target makes a <strong>Dex save</strong> or is <strong>Blinded</strong>. The target makes a <strong>Constitution save</strong> at the end of each of its turns to end the effect.',
       },
 
       /* ── 2nd-Level ── */
@@ -1200,12 +1200,12 @@ export const classArticles: Article[] = [
         level: '2nd-level Abjuration',
         properties: [
           { label: 'Casting Time', value: '1 action' },
-          { label: 'Range', value: 'Touch' },
+          { label: 'Range', value: 'Self' },
           { label: 'Components', value: 'S' },
           { label: 'Duration', value: '10 minutes' },
         ],
         description:
-          'Target\'s AC increases by <strong>+2</strong>. The target gains <strong>resistance to Slashing damage</strong>. The target\'s skin appears grey and stony.',
+          'You trigger a rapid, temporary hardening of your skin. Your AC increases by <strong>+2</strong>. The you also gain <strong>resistance to Slashing damage</strong>. Your skin appears grey, stony, and rigid while this spell is active.',
       },
       {
         type: 'spell-block',
@@ -1218,7 +1218,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Concentration, up to 1 minute' },
         ],
         description:
-          'Target makes a <strong>Constitution save</strong>. On failure: <span class="dice">3d6</span> necrotic damage and <strong>Infected</strong>. While infected: <span class="dice">1d6</span> necrotic at the start of each turn. Creatures within 5 feet of the infected target must make a Constitution save or take <span class="dice">1d6</span> necrotic damage (they do not become carriers).',
+          'You mix the chemicals in your mouth, resulting in a concentrated pathogen, that you spit at a organic creature. Target makes a <strong>Constitution save</strong>. On failure: <span class="dice">3d6</span> necrotic damage and <strong>Infected</strong>. While infected: <span class="dice">1d6</span> necrotic at the start of each turn. Creatures within 5 feet of the infected target must make a Constitution save or take <span class="dice">1d6</span> necrotic damage (they do not become carriers).',
       },
       {
         type: 'spell-block',
@@ -1231,7 +1231,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Instantaneous' },
         ],
         description:
-          'Deliver <span class="dice">3d8</span> acid damage. If the target is wearing metal armor or is a mechanical construct, its AC is <strong>reduced by 1 permanently</strong> (until repaired).',
+          'You alter the chemical composition of the skin on your hands, creating a highly corrosive layer. You can then use your fist to punch or touch a creature, delivering <span class="dice">3d8</span> acid damage. If the target is wearing metal armor or is a mechanical construct, its AC is <strong>reduced by 1 permanently</strong> (until repaired).',
       },
 
       /* ── 3rd-Level ── */
@@ -1248,7 +1248,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: '1 Hour' },
         ],
         description:
-          'You gain <strong>+4 Strength</strong>, <strong>+15 feet speed</strong>. Your melee attacks deal an extra <span class="dice">1d8</span> damage. Your Splicer spell save DC increases by +2 and you restore all spell slots. You <strong>cannot</strong> use tools or cast spells requiring Material components. When the spell ends: <span class="dice">2d10</span> necrotic damage (unreducible), two levels of <strong>Exhaustion</strong>. Once per Long Rest.',
+          'You force your cells into a state of hyper-aggressive mutation. Your muscles bulge and your bones shift painfully. You gain <strong>+4 Strength</strong>, <strong>+15 feet speed</strong>. Your melee attacks deal an extra <span class="dice">1d8</span> damage. The save DC for your Splicer spells that originate from your body (like Necrosis Spit or Invoke Adrenaline) increases by +2, you also restore all spell slots. You <strong>cannot</strong> use tools or cast spells requiring Material components. When the spell ends: <span class="dice">2d10</span> necrotic damage (unreducible), two levels of <strong>Exhaustion</strong>. You cannot cast this spell again until you finish a Long Rest.',
       },
     ],
   },
@@ -1324,25 +1324,25 @@ export const classArticles: Article[] = [
         type: 'trait',
         name: 'Pitch Perfect (Level 1)',
         description:
-          'As a <strong>bonus action</strong>, choose one creature within 60 feet. They gain a <strong>Thespian Die</strong> (<span class="dice">1d6</span>). Once within 10 minutes, they can add the roll to one ability check, attack roll, or saving throw.',
+          'You can use your voice to bolster your allies. As a <strong>bonus action</strong>, choose one creature within 60 feet. They gain a <strong>Thespian Die</strong> (<span class="dice">1d6</span>). Once within 10 minutes, they can add the roll to one ability check, attack roll, or saving throw.',
       },
       {
         type: 'trait',
         name: 'Social Chameleon (Level 1)',
         description:
-          'You have <strong>advantage</strong> on any Charisma (Persuasion or Deception) checks.',
+          'Your empathic ability and adaptable ways make it easy for you to blend in and meet people where they are.You have <strong>advantage</strong> on any Charisma (Persuasion or Deception) checks.',
       },
       {
         type: 'trait',
         name: 'Well-travelled (Level 2)',
         description:
-          'Add half your proficiency bonus (rounded down) to any ability check that doesn\'t already include your proficiency bonus.',
+          'You have spent time in so many different social circles and corporate sectors that you’ve picked up a bit of everything. You can add half your proficiency bonus, rounded down, to any ability check you make that doesn’t already include your proficiency bonus.',
       },
       {
         type: 'trait',
         name: 'Crowd Work (Level 3)',
         description:
-          'When you use Pitch Perfect, you can choose a second ally within 60 feet. That ally gains <strong>Advantage</strong> on their next attack roll before the start of your next turn. Usable a number of times equal to your Proficiency Bonus per long rest.',
+          'You know how to play to the gallery. When you use your <strong>Pitch Perfect</strong> feature to give an ally a Thespian Die, you can choose a second ally within 60 feet. That second ally gains <strong>Advantage</strong> on the next attack roll they make before the start of your next turn. You can use this "double-up" a number of times equal to your Proficiency Bonus per long rest.',
       },
       {
         type: 'trait',
@@ -1354,13 +1354,13 @@ export const classArticles: Article[] = [
         type: 'trait',
         name: 'Social Engineering (Level 4)',
         description:
-          'When you arrive in a new location, spend 1 hour scanning the room. You identify a <strong>Contact</strong> willing to provide one piece of insider information or a minor favor for free.',
+          'You know how to manipulate the "Soft Power" of any station or city. Whenever you arrive in a new location, you can spend 1 hour scanning the room. After doing so, you identify one <strong>Contact</strong> (a bartender, a disgruntled clerk, a bored security guard) who is willing to provide you with one piece of "insider info" or a minor favor (like a keycard or a password) for free.',
       },
       {
         type: 'trait',
         name: 'Bright-Burn (Level 5)',
         description:
-          'When you cast <strong>Spotlight</strong>, the beam sears the target. The target takes <span class="dice">2d6</span> fire damage at the start of each of its turns while the spell is active. Creatures within 5 feet must make a <strong>Constitution save</strong> or be <strong>Blinded</strong>.',
+          'You’ve modified your skin plates to emit dangerous levels of thermal radiation. When you cast <strong>Spotlight</strong>, the intense beam now sears the target. At the start of each of the target\'s turns while the spell is active, it takes (<span class="dice">2d6</span>) <strong>Fire damage</strong>. Additionally, if a creature starts its turn within 5 feet of the target, it must succeed on a <strong>Constitution saving throw</strong> or be <strong>Blinded</strong> until the start of its next turn due to the secondary glare.',
       },
       {
         type: 'trait',
@@ -1373,7 +1373,7 @@ export const classArticles: Article[] = [
         type: 'image',
         src: '/images/classes/the-thespian/level5.png',
         alt: 'The Thespian at the height of their power',
-        caption: 'A fully realized Thespian — master of reputation and the most powerful version of their class.',
+        caption: 'A desperate Thespian, casting a Bright-Burn Spotlight as a last resort.',
         float: 'full',
       },
     ],
@@ -1406,7 +1406,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Instantaneous' },
         ],
         description:
-          'Target makes a <strong>Wisdom save</strong> or takes <span class="dice">1d4</span> psychic damage and has <strong>disadvantage</strong> on its next attack roll.',
+          'You broadcast a concentrated burst of dissonant, psycho-acoustic noise. Target makes a <strong>Wisdom save</strong> or takes <span class="dice">1d4</span> psychic damage and has <strong>disadvantage</strong> on its next attack roll.',
       },
       {
         type: 'spell-block',
@@ -1419,7 +1419,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: '1 round' },
         ],
         description:
-          'Target makes a <strong>Constitution save</strong> or is <strong>Dazzled</strong> (no Reactions, speed halved).',
+          'You cause your Smart-Fabrics and skin plates to flare in a blinding, hypnotic sequence of colors. Target makes a <strong>Constitution save</strong> or is <strong>Dazzled</strong> (no Reactions, speed halved).',
       },
       {
         type: 'spell-block',
@@ -1449,7 +1449,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Instantaneous' },
         ],
         description:
-          'Each creature within 10 feet makes a <strong>Constitution save</strong>. On failure: <span class="dice">2d8</span> thunder damage and pushed 10 feet. On success: half damage, not pushed.',
+          'When struck, your vocal modulators emit an automatic, high-decibel defensive shriek. Each creature within 10 feet makes a <strong>Constitution save</strong>. On failure: <span class="dice">2d8</span> thunder damage and pushed 10 feet. On success: half damage, not pushed.',
       },
       {
         type: 'spell-block',
@@ -1462,7 +1462,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Concentration, up to 1 minute' },
         ],
         description:
-          'You emit an intense light focusing on one creature. All attacks against the target have <strong>Advantage</strong>. The target cannot benefit from <strong>Invisible</strong> or <strong>Half-Cover</strong>.',
+          'You use your reflective skin plates on your face to emit an intense white light, focusing on one creature. All attacks against the target have <strong>Advantage</strong>. The target cannot benefit from <strong>Invisible</strong> or <strong>Half-Cover</strong>.',
       },
       {
         type: 'spell-block',
@@ -1475,7 +1475,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: '1 round' },
         ],
         description:
-          'Target makes a <strong>Wisdom save</strong> or follows a one-word command: <em>Approach, Drop, Flee, Halt,</em> or <em>Grovel</em>. Machines and Autos have <strong>disadvantage</strong> on the save.',
+          'You weave a hidden imperative into a snippet of casual conversation. Target makes a <strong>Wisdom save</strong> or follows a one-word command: <em>Approach, Drop, Flee, Halt,</em> or <em>Grovel</em>. Machines and Autos have <strong>disadvantage</strong> on the save. as they are engineered to listen to commands',
       },
 
       /* ── 2nd-Level ── */
@@ -1492,7 +1492,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: '1 minute' },
         ],
         description:
-          'You create three holographic duplicates. When targeted, roll a <span class="dice">d20</span>: 6+ with 3 dupes, 8+ with 2, 11+ with 1 — the attack hits a duplicate instead. Each duplicate has AC = 10 + your Dex modifier and disappears when hit.',
+          'Your skin plates project three holographic duplicates of yourself that move with you, mimicking your movements. When targeted, roll a <span class="dice">d20</span>: 6+ with 3 dupes, 8+ with 2, 11+ with 1 — the attack hits a duplicate instead. Each duplicate has AC = 10 + your Dex modifier and disappears when hit.',
       },
       {
         type: 'spell-block',
@@ -1505,7 +1505,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Concentration, up to 1 minute' },
         ],
         description:
-          'You and your allies cannot be <strong>Charmed</strong> or <strong>Frightened</strong>. Hostile creatures starting their turn in the aura must make a <strong>Wisdom save</strong>: on failure, they have <strong>Disadvantage</strong> on attacks against anyone other than you.',
+          'You emit a frequency of authority and charm that demands attention. For the duration, you and any allies within 30 feet of you cannot be <strong>Charmed</strong> or <strong>Frightened</strong>. Additionally, any hostile creature that starts its turn within the aura must succeed on a <strong>Wisdom saving throw</strong>. On a failure, it has <strong>Disadvantage</strong> on all attack rolls made against targets other than you, as your "Chad" energy makes it impossible for them to focus on anyone else.',
       },
       {
         type: 'spell-block',
@@ -1518,7 +1518,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Concentration, up to 1 minute' },
         ],
         description:
-          'Target makes a <strong>Wisdom save</strong>. On failure: <span class="dice">3d6</span> psychic damage and <strong>Frightened</strong> with speed reduced to 0. The target repeats the save at the end of each of its turns.',
+          'You shift your vocal modulators into a sub-harmonic, terrifyingly deep register to deliver a scathing critique of a creature’s existence. Target makes a <strong>Wisdom save</strong>. On failure: <span class="dice">3d6</span> psychic damage and <strong>Frightened</strong> with speed reduced to 0 as it cowers under the weight of your perceived authority. The target repeats the save at the end of each of its turns.',
       },
 
       /* ── 3rd-Level ── */
@@ -1535,7 +1535,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: 'Concentration, up to 1 minute' },
         ],
         description:
-          'Creates a 20-foot cube that is <strong>Heavily Obscured</strong> for enemies but clear for allies. Enemies starting their turn in the cube or entering it must make an <strong>Investigation check</strong> or be <strong>Restrained</strong>.',
+          'Your skin plates project a chaotic swarm of holographic protestors, dancers, or static-filled versions of yourself in a 20-foot cube. It creates a 20-foot cube that is <strong>Heavily Obscured</strong> for enemies but clear for allies. Enemies starting their turn in the cube or entering it must make an <strong>Investigation check</strong> or be <strong>Restrained</strong>.',
       },
       {
         type: 'spell-block',
@@ -1548,7 +1548,7 @@ export const classArticles: Article[] = [
           { label: 'Duration', value: '1 hour' },
         ],
         description:
-          'You look and sound exactly like the target creature. You gain a <strong>+10 bonus to Deception checks</strong>. This is a physical light-wrap; an Investigation check vs. your Spell Save DC reveals the disguise. If you attack or cast a spell, viewers get a new check with <strong>Advantage</strong>.',
+          'You touch a creature and your Smart-Fabrics and skin plates instantly map their physical form. For the duration, you look and sound exactly like that creature. You gain a <strong>+10 bonus</strong> to <strong> Charisma (Deception)</strong> checks to pass as them. Unlike lower-level disguises; a creature must use an action to make an <strong> Intelligence (Investigation) check </strong> against your Spell Save DC to see through the projection. If you attack or cast another spell, the hijack flickers, granting viewers a new check with <strong>Advantage</strong>.',
       },
     ],
   },
