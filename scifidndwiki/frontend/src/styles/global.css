@@ -923,10 +923,14 @@ body {
 
   .main-content {
     margin-left: 0;
+    overflow-x: hidden;
   }
 
   .page-wrapper {
     padding: 4.5rem 1.25rem 2rem;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+    word-break: break-word;
   }
 
   .page-title {
@@ -948,6 +952,59 @@ body {
 
   .stat-block__label {
     min-width: auto;
+    white-space: normal;
+  }
+
+  .stat-block__value {
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  /* ─── Class table mobile fixes ─── */
+  .class-table {
+    min-width: unset;
+    font-size: 0.72rem;
+  }
+
+  .class-table th {
+    font-size: 0.65rem;
+    padding: 0.4rem 0.35rem;
+    white-space: normal;
+  }
+
+  .class-table td {
+    padding: 0.35rem 0.3rem;
+    white-space: normal;
+    font-size: 0.72rem;
+  }
+
+  .class-table td:nth-child(3) {
+    min-width: 120px;
+  }
+
+  .class-table-wrapper::after {
+    content: '\2190 scroll \2192';
+    display: block;
+    text-align: center;
+    font-size: 0.65rem;
+    color: var(--phb-text-muted);
+    padding: 0.3rem 0;
+    font-family: var(--font-heading);
+    letter-spacing: 0.05em;
+  }
+
+  /* ─── Trait & spell block overflow fixes ─── */
+  .trait-block {
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .spell-block__prop {
+    white-space: normal;
+  }
+
+  .article-image img {
+    max-width: 100%;
   }
 }
 

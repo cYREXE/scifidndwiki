@@ -19,6 +19,10 @@ export default function HomePage() {
       <p className="home__intro">
         Tjenare Boys! Här kommer allt material jag förberett hitills. Ingen av detta är skrivet i sten såklart och det finns säkert hål som måste täppas, men använd detta som inspo. Disclaimer: Om text ser AI-genererad ut så är det för att en AI har transkriberat allt källmaterial för att formatera om det inom en snygg design, dessvärre innebär detta lite.. kreativa friheter här och där.
 
+        
+      </p>
+      <p className="home__intro">
+        Changelog 1.2 - Har fixat mobilanpassningen för classes, allt ska nu gå att se utan att scrolla horizontellt.
         Changelog 1.1 - Har lagt till innehåll på class features samt spells som hade blivit borttaget, nu finns det lite mer lore från källmaterialet inbakat i beskrivningarna. 
       </p>
 
