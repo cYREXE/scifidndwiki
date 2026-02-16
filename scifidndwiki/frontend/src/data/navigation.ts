@@ -89,4 +89,11 @@ export const navigation: NavSection[] = [
       },
     ],
   },
+  {
+    label: 'Tools',
+    icon: '📋',
+    articles: [
+      { slug: 'character-sheet', title: 'Character Sheet', basePath: '/tools' },
+    ],
+  },
 ];

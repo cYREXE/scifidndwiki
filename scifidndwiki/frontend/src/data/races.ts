@@ -51,7 +51,7 @@ export const raceArticles: Article[] = [
         type: 'trait',
         name: 'Construct Nature',
         description:
-          'You do not need to eat, drink, or breathe. You are immune to disease and being poisoned. You do not sleep and instead enter a dormant state for 4 hours a day to perform software maintenance. You have disadvantage on Dexterity(sneak) because of your mechanical joints.',
+          'You do not need to eat, drink, or breathe. You are immune to disease and being poisoned. You do not sleep and instead enter a dormant state for 4 hours a day to perform software maintenance. You have disadvantage on Dexterity(sneak) because of your mechanical joints, however you do survive dismemberment',
       },
       {
         type: 'trait',
@@ -69,7 +69,7 @@ export const raceArticles: Article[] = [
         type: 'trait',
         name: 'Durable Plating',
         description:
-          'When you aren\'t wearing armour, your AC is 13 + your Dexterity modifier. You can use your natural plating to determine your AC if the armour you wear would leave you with a lower AC. A shield\'s benefits apply as normal while you use your natural AC.',
+          'When you aren\'t wearing armour, your AC is 14 + your Dexterity modifier. You can use your natural plating to determine your AC if the armour you wear would leave you with a lower AC. A shield\'s benefits apply as normal while you use your natural AC.',
       },
       {
         type: 'trait',

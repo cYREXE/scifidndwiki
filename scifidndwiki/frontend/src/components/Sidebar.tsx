@@ -85,6 +85,20 @@ function NavSection({
             ))}
           </div>
         ))}
+
+        {/* Standalone article links (no sub-categories) */}
+        {section.articles?.map((article) => (
+          <NavLink
+            key={article.slug}
+            to={`${article.basePath}/${article.slug}`}
+            className={({ isActive }) =>
+              `nav-link ${isActive ? 'nav-link--active' : ''}`
+            }
+            onClick={onNavigate}
+          >
+            {article.title}
+          </NavLink>
+        ))}
       </div>
     </div>
   );

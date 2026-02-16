@@ -22,7 +22,12 @@ export default function HomePage() {
         
       </p>
       <p className="home__intro">
+        Changelog 1.3 - La till ett character sheet under "Tools". Fixad Auto beskrivningen till senaste versionen.
+      </p>
+      <p className="home__intro">
         Changelog 1.2 - Har fixat mobilanpassningen för classes, allt ska nu gå att se utan att scrolla horizontellt.
+      </p>
+      <p className="home__intro">
         Changelog 1.1 - Har lagt till innehåll på class features samt spells som hade blivit borttaget, nu finns det lite mer lore från källmaterialet inbakat i beskrivningarna. 
       </p>
 

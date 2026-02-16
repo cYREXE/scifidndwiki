@@ -10,6 +10,7 @@ import {
   RaceArticlePage,
   ItemArticlePage,
 } from './pages/ArticlePage';
+import CharacterSheetPage from './pages/CharacterSheetPage';
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,9 @@ const router = createBrowserRouter([
       /* ─── Items ─── */
       { path: 'items', element: <CategoryPage /> },
       { path: 'items/:slug', element: <ItemArticlePage /> },
+
+      /* ─── Tools ─── */
+      { path: 'tools/character-sheet', element: <CharacterSheetPage /> },
 
       /* ─── Lore redirect ─── */
       { path: 'lore', element: <Navigate to="/lore/planets" replace /> },

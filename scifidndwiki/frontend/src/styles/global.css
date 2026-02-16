@@ -1173,3 +1173,303 @@ body {
 .article a:hover {
   color: var(--phb-red-light);
 }
+
+/* ═══════════════════════════════════════════════════════════════════
+   CHARACTER SHEET FORM
+   ═══════════════════════════════════════════════════════════════════ */
+
+.cs-form {
+  max-width: 900px;
+}
+
+.cs-section {
+  margin-bottom: 2rem;
+}
+
+/* ─── Shared input / textarea styles ─── */
+.cs-input,
+.cs-textarea {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  color: var(--phb-text);
+  background: var(--phb-bg-light);
+  border: 1px solid rgba(201, 173, 106, 0.5);
+  border-radius: 4px;
+  padding: 0.45rem 0.6rem;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.cs-input:focus,
+.cs-textarea:focus {
+  outline: none;
+  border-color: var(--phb-red);
+  box-shadow: 0 0 0 2px rgba(88, 24, 13, 0.12);
+}
+
+.cs-input::placeholder,
+.cs-textarea::placeholder {
+  color: var(--phb-text-muted);
+  opacity: 0.5;
+}
+
+.cs-textarea {
+  resize: vertical;
+  line-height: 1.55;
+}
+
+.cs-input--center {
+  text-align: center;
+}
+
+.cs-input--small {
+  width: 48px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.cs-input--score {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: var(--font-heading);
+  color: var(--phb-red);
+  padding: 0.35rem;
+}
+
+.cs-input--mod {
+  text-align: center;
+  font-size: 0.85rem;
+  width: 52px;
+}
+
+/* ─── Labels ─── */
+.cs-label {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--phb-red);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.2rem;
+}
+
+.cs-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.cs-field--wide {
+  grid-column: 1 / -1;
+}
+
+.cs-field--inline {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cs-field--inline .cs-label {
+  margin-bottom: 0;
+  white-space: nowrap;
+  font-size: 0.8rem;
+  text-transform: none;
+  color: var(--phb-text);
+  font-weight: 400;
+}
+
+/* ─── Grids ─── */
+.cs-grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.cs-grid--header {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.cs-grid--abilities {
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.75rem;
+  text-align: center;
+}
+
+.cs-grid--combat {
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+}
+
+.cs-grid--saves {
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+}
+
+.cs-grid--skills {
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.cs-grid--personality {
+  grid-template-columns: 1fr 1fr;
+}
+
+.cs-grid--two {
+  grid-template-columns: 1fr 1fr;
+}
+
+.cs-grid--appearance {
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+}
+
+.cs-grid--currency {
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 400px;
+  margin-top: 0.75rem;
+}
+
+/* ─── Ability Score Cards ─── */
+.cs-ability {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.75rem 0.5rem;
+  background: linear-gradient(180deg, var(--phb-bg-light), var(--phb-bg));
+  border: 2px solid var(--phb-red);
+  border-radius: 6px;
+}
+
+.cs-ability__label {
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--phb-red);
+}
+
+.cs-ability__mod-label {
+  font-family: var(--font-heading);
+  font-size: 0.6rem;
+  color: var(--phb-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ─── Weapons Table ─── */
+.cs-weapons {
+  border: 2px solid var(--phb-red);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.cs-weapons__header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  background: var(--phb-red);
+  color: var(--phb-bg-light);
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.cs-weapons__header span {
+  padding: 0.4rem 0.6rem;
+  text-align: center;
+}
+
+.cs-weapons__row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  border-bottom: 1px solid rgba(88, 24, 13, 0.1);
+}
+
+.cs-weapons__row:last-child {
+  border-bottom: none;
+}
+
+.cs-weapons__row .cs-input {
+  border: none;
+  border-radius: 0;
+  border-right: 1px solid rgba(88, 24, 13, 0.1);
+}
+
+.cs-weapons__row .cs-input:last-child {
+  border-right: none;
+}
+
+/* ─── Action Buttons ─── */
+.cs-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 3px solid var(--phb-red);
+  flex-wrap: wrap;
+}
+
+.cs-btn {
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 0.7rem 1.8rem;
+  border: 2px solid;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.cs-btn--download {
+  background: var(--phb-red);
+  color: var(--phb-bg-light);
+  border-color: var(--phb-red);
+}
+
+.cs-btn--download:hover:not(:disabled) {
+  background: var(--phb-red-light);
+  border-color: var(--phb-red-light);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(88, 24, 13, 0.25);
+}
+
+.cs-btn--download:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.cs-btn--clear {
+  background: transparent;
+  color: var(--phb-text-muted);
+  border-color: rgba(201, 173, 106, 0.5);
+}
+
+.cs-btn--clear:hover {
+  border-color: var(--phb-red-light);
+  color: var(--phb-red-light);
+}
+
+/* ─── Character Sheet Responsive ─── */
+@media (max-width: 768px) {
+  .cs-grid--abilities {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .cs-grid--personality,
+  .cs-grid--two {
+    grid-template-columns: 1fr;
+  }
+
+  .cs-grid--currency {
+    max-width: 100%;
+  }
+
+  .cs-actions {
+    flex-direction: column;
+  }
+
+  .cs-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
