@@ -284,7 +284,7 @@ export default function CharacterSheetPage() {
       }
 
       const filledBytes = await pdf.save();
-      const blob = new Blob([filledBytes], { type: 'application/pdf' });
+      const blob = new Blob([filledBytes.buffer as ArrayBuffer], { type: 'application/pdf' });
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
