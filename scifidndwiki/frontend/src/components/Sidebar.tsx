@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink, Link, useNavigate } from 'react-router-dom';
 import { navigation } from '../data/navigation';
 
 interface SidebarProps {
@@ -8,6 +8,17 @@ interface SidebarProps {
 }
 
 export default function Sidebar({ isOpen, onClose }: SidebarProps) {
+  const [searchQuery, setSearchQuery] = useState('');
+  const navigate = useNavigate();
+
+  function handleSearchSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    if (!searchQuery.trim()) return;
+    navigate(`/search?q=${encodeURIComponent(searchQuery.trim())}`);
+    setSearchQuery('');
+    onClose();
+  }
+
   return (
     <>
       {/* Mobile overlay */}
@@ -24,6 +35,17 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
           </Link>
           <div className="sidebar__subtitle">Player's Reference Guide</div>
         </div>
+
+        {/* Search */}
+        <form className="sidebar__search" onSubmit={handleSearchSubmit}>
+          <input
+            className="sidebar__search-input"
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder="Search..."
+          />
+        </form>
 
         {/* Navigation */}
         <nav className="sidebar__nav">

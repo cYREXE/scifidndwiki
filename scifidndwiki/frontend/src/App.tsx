@@ -11,6 +11,7 @@ import {
   ItemArticlePage,
 } from './pages/ArticlePage';
 import CharacterSheetPage from './pages/CharacterSheetPage';
+import SearchPage from './pages/SearchPage';
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,9 @@ const router = createBrowserRouter([
 
       /* ─── Tools ─── */
       { path: 'tools/character-sheet', element: <CharacterSheetPage /> },
+
+      /* ─── Search ─── */
+      { path: 'search', element: <SearchPage /> },
 
       /* ─── Lore redirect ─── */
       { path: 'lore', element: <Navigate to="/lore/planets" replace /> },
